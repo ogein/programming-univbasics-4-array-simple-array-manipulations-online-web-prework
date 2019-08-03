@@ -23,20 +23,26 @@ def shift_with_args(array)
 end
 
 
-using_concat
+def using_concat
   
+end
+  
+def using_insert
 
-using_insert
+end
 
+def using_uniq
 
-using_uniq
+end
 
+def using_flatten
 
-using_flatten
+end
 
+def using_delete
+  
+end
 
-using_delete
+def using_delete_at
 
-
-using_delete_at
-
+end
