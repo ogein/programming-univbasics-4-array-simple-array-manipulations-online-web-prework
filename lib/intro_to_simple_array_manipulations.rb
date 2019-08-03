@@ -1,19 +1,24 @@
-using_push
+def using_push(array, string)
+  return array.push(string)
+end
+
+def using_unshift(array, string)
+  return array.unshift(string)
+end
+
+def using_pop(array)
+  return array.pop
+end
+
+def pop_with_args
 
 
-using_unshift
+def using_shift(array)
+  return array.shift
+end
 
-
-using_pop
-
-
-pop_with_args
-
-
-using_shift
-
-
-shift_with_args
+def shift_with_args(array)
+  
 
 
 using_concat
@@ -29,7 +34,7 @@ using_flatten
 
 
 using_delete
-  takes in two arguments, an array and a string, and uses the delete method to remove any items from the array that are equal to that string (FAILED - 18)
+
 
 using_delete_at
-  takes in two arguments, an array and an integer and deletes the element at the index of the array that is equal to that integer (FAILED - 19)
+
